@@ -1,27 +1,37 @@
-import React, { useState } from 'react'
-import DevCard from './DevCard';
+import React, { useEffect, useState } from "react";
+import DevCard from "./DevCard";
 
 const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
 
 const Home = () => {
+  const [devs, setDevs] = useState([]);
 
-
-const [devs, setDevs] = useState([])
-
-const getDeveloper = () => {
+  const getDeveloper = () => {
     fetch(api_url)
-    .then((response) => response.json())
-    .then((data) => {
-        devs = data.devs
-    })
-}
+      .then((response) => response.json())
+      .then((devs) => {
+        setDevs(devs);
+      });
+    // .catch((err) => err)
+  };
+
+  useEffect(getDeveloper, []);
+
+  let devCards = devs.map((devs) => (
+    <DevCard
+      devName={devs.name}
+      key={devs.id}
+      devId={devs.id}
+      devThumbnail={devs.image}
+    />
+  ));
 
   return (
-    <div className='container'>
-        <br/>
-        <DevCard devName="Wcats" devId="2" devThumbnail="https://avatars.githubusercontent.com/u/8957173?v=4" />
+    <div className="container">
+      <br />
+      {devCards}
     </div>
-  )
-}
+  );
+};
 
 export default Home;

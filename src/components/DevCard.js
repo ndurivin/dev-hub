@@ -6,7 +6,7 @@ function DevCard({devName, devThumbnail, devId}) {
     <div className='container'>
         <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
-            <div className="card align-items-center">
+            <div className="card h-100 shadow align-items-center">
                 <img src={devThumbnail} className="card-img-top" alt={devName} />
                 <div className="card-body align-items-center">
                     <h4 className="card-title text-center">{devName}</h4>
