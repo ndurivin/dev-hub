@@ -29,6 +29,7 @@ const Home = () => {
   return (
     <div className="container">
       <br />
+      
       {devCards}
     </div>
   );
