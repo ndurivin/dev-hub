@@ -31,6 +31,7 @@ const Home = () => {
     <div className="container">
       <br />
         <NavHero />
+        <h2 className="text-center py-4">Featured Developers</h2>
       {devCards}
     </div>
   );

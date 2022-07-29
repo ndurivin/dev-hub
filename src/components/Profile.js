@@ -44,7 +44,7 @@ const Profile = () => {
   return (
     <div className='container py-4 '>
             <div className="card mb-3 py-3" style={{maxWidth: '540px'}}>
-                <div className="row g-0 ">
+                <div className="row justify-content-center ">
                     <div className="col-md-4 ">
                         <img src={image} className="img-fluid rounded-start" alt={name}/>
                     </div>
