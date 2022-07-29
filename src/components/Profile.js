@@ -24,7 +24,7 @@ const Profile = () => {
           .then((response) => response.json())
           .then((data) => {
 
-            const devs = data.devs[0]
+            const devs = data.devs
 
             setImage(devs.image)
             setName(devs.name)
@@ -46,7 +46,7 @@ const Profile = () => {
             <div className="card mb-3 py-3" style={{maxWidth: '540px'}}>
                 <div className="row g-0 ">
                     <div className="col-md-4 ">
-                        <img src={setImage} className="img-fluid rounded-start" alt={name}/>
+                        <img src={image} className="img-fluid rounded-start" alt={name}/>
                     </div>
                     <div className="col-md-8">
                     <div className="card-body">

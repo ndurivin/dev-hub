@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import DevCard from "./DevCard";
+import NavHero from "./NavHero";
 
 const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
 
@@ -29,7 +30,7 @@ const Home = () => {
   return (
     <div className="container">
       <br />
-      
+        <NavHero />
       {devCards}
     </div>
   );
