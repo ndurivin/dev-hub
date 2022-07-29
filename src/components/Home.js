@@ -18,21 +18,17 @@ const Home = () => {
 
   useEffect(getDeveloper, []);
 
-  let devCards = devs.map((devs) => (
-    <DevCard
-      devName={devs.name}
-      key={devs.id}
-      devId={devs.id}
-      devThumbnail={devs.image}
-    />
+  let devCards = devs.map((devs) => (<DevCard devName={devs.name} key={devs.id}
+      devId={devs.id} devThumbnail={devs.image}/>
   ));
 
   return (
-    <div className="container">
-      <br />
+    <div className="container py-3">
         <NavHero />
         <h2 className="text-center py-4">Featured Developers</h2>
+        <div className="card align-items-center">
       {devCards}
+    </div>
     </div>
   );
 };
