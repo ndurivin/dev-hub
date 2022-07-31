@@ -1,7 +1,7 @@
 import React from 'react'
 import DevCard from './DevCard';
 import Search from './Search';
-import DevData from ''
+import data from './data.j
 
 const Devs = () => {
   return (
