@@ -21,10 +21,11 @@ const Search = ({ placeholder, data }) => {
 
       <div className="py-3 container">
         {data
+          // eslint-disable-next-line array-callback-return
           .filter((value) => {
-            if (searchInfo === "") {
+            if(searchInfo === "") {
               return value;
-            } else if (
+            }else if (
               value.language_id.toLowerCase().includes(searchInfo.toLowerCase())
             ) {
               return value;
