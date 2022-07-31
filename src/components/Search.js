@@ -30,6 +30,7 @@ const Search = ({ placeholder, data }) => {
               return value;
             }
           })
+        
           .map((value) => {
             return (
               <div className="py-4 container">

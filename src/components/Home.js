@@ -2,21 +2,22 @@ import React, { useEffect, useState } from "react";
 import DevCard from "./DevCard";
 import NavHero from "./NavHero";
 import { Link } from "react-router-dom";
+import DevData from './data/data.json';
 
 
-const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
-// const devsData = (data)
+// const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
+// const DevsData = (DevData)
 
 const Home = () => {
   const [devs, setDevs] = useState([]);
 
   const getDeveloper = () => {
-    fetch(api_url)
+    fetch(DevData)
       .then((response) => response.json())
       .then((devs) => {
         setDevs(devs);
       });
-    // .catch((err) => err)
+    
   };
 
   useEffect(getDeveloper, []);
@@ -33,7 +34,7 @@ const Home = () => {
         <br/>
         <Link to={"/devs"} className="btn btn-info text-center">View Available Developers</Link>
         <div className="col">
-      {/* {devCards} */}
+      {devCards}
     </div>
     </div>
   );
