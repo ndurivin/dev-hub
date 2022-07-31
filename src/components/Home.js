@@ -25,8 +25,8 @@ const Home = () => {
   return (
     <div className="container py-3">
         <NavHero />
-        <h2 className="text-center py-4">Featured Developers</h2>
-        <div className="card align-items-center">
+        <h2 className="text-center p-4">Featured Developers</h2>
+        <div className="col">
       {devCards}
     </div>
     </div>
