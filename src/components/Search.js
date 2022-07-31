@@ -37,9 +37,9 @@ const Search = ({ placeholder, data }) => {
               <div className="py-4 container">
                 <div className="row align-items-center">
                   <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
-                    <div className="card p-0 overflow-hidden h-100 shadow">
+                    <div className="card p-0 overflow-hidden h-100 shadow" key={value.id}>
                       <div className="card-body justify-content-center align-items-center" >
-                        <h3 className="card-title text-center">{value.name} key={value.id}</h3>
+                        <h3 className="card-title text-center">{value.name} </h3>
                         <img
                           src={value.image}
                           className="card-img-top img-fluid"
@@ -51,12 +51,12 @@ const Search = ({ placeholder, data }) => {
                         <h5 className="card-title text-center">
                           {value.experience} years
                         </h5>
-                        <h6 className="card-text">
+                        <h6 className="card-text text-center">
                           <small className="text-muted">
                             Following: {value.following} people
                           </small>
                         </h6>
-                        <h6 className="card-text">
+                        <h6 className="card-text text-center">
                           <small className="text-muted">
                             Followed by: {value.followers} people
                           </small>
