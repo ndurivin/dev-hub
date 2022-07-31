@@ -38,8 +38,8 @@ const Search = ({ placeholder, data }) => {
                 <div className="row align-items-center">
                   <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
                     <div className="card p-0 overflow-hidden h-100 shadow">
-                      <div className="card-body justify-content-center align-items-center">
-                        <h3 className="card-title text-center">{value.name}</h3>
+                      <div className="card-body justify-content-center align-items-center" >
+                        <h3 className="card-title text-center">{value.name} key={value.id}</h3>
                         <img
                           src={value.image}
                           className="card-img-top img-fluid"
