@@ -5,13 +5,13 @@ function DevCard({ devName, devThumbnail, devId }) {
   return (
 
      <div className="py-4 container">
-      <div className="row justify-content-center">
+      <div className="row align-items-center">
         <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
          <div className="card p-0 overflow-hidden h-100 shadow">
-         <div className="card-body ">
+         <div className="card-body justify-content-center align-items-center">
             <img src={devThumbnail} className="card-img-top img-fluid" alt={devName}/>
              <h4 className="card-title text-center">{devName}</h4>
-             <Link to={"/devs/" + devId} className="btn btn-info">View Details</Link>
+             <Link to={"/profile/" + devId} className="btn btn-info">View Details</Link>
            </div>
         </div>
        </div> 

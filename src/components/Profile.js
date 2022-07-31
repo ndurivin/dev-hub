@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
+import Home from './Home';
 
 
-const search_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
+const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
 
 const Profile = () => {
 
@@ -17,7 +18,7 @@ const Profile = () => {
 
     let{devId} = useParams()
 
-    const realSearch = search_url + devId 
+    const realSearch = api_url + devId 
 
     const getDeveloper = () => {
         fetch(realSearch)

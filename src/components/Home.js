@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import DevCard from "./DevCard";
 import NavHero from "./NavHero";
+// import data from "./data/data";
 
 const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
+// const devsData = (data)
 
 const Home = () => {
   const [devs, setDevs] = useState([]);

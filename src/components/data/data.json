@@ -1,6 +1,4 @@
-
-const data = {
-  devData: [
+[
     { 
         "name": "Mojombo",
         "id": 1,
@@ -273,6 +271,3 @@ const data = {
       }
   
     ]
-  }
-
-export default data
