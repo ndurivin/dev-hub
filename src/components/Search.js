@@ -12,7 +12,10 @@ const Search = ({ placeholder, data }) => {
             <button className="btn btn-outline-success" type="submit">Search</button>
         </form>
 
-        <div>
+        <div className='py-3 container'>
+            {data.map((value, key) => {
+                return <div>{value.language_id}</div>
+            })}
             
         </div>
       
