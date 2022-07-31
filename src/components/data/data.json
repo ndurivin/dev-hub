@@ -2,7 +2,7 @@
     { 
         "name": "Mojombo",
         "id": 1,
-        "image": "../images/image1.jpeg",
+        "image": "https://i.pinimg.com/originals/da/df/6a/dadf6a20353342886904afc6af052b3a.jpg",
         "language_id": "Javascript",
         "experience": 4,
         "followers": 23,
@@ -11,7 +11,7 @@
       {
         "name": "Defunkt",
         "id": 2,
-        "image": "../images/image2.jpeg",
+        "image": "https://i.pinimg.com/236x/dc/ef/3a/dcef3abedf0e0761203aaeb85886a6f3--jedi-knight-open-source.jpg",
         "language_id": "React Native",
         "experience": 5,
         "followers": 13,
@@ -20,7 +20,7 @@
       {
         "name": "Pjhyett",
         "id": 3,
-        "image": "../images/image3.jpeg",
+        "image": "https://imgs.search.brave.com/ItvfsvN1M5wIwzVKN_4XGNB46g6u7y73EGrfgKhNooc/rs:fit:400:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/c3pnZk9zX043NC1n/NGpwT05mUnN3QUFB/QSZwaWQ9QXBp",
         "language_id": "Java",
         "experience": 10,
         "followers": 43,
@@ -29,7 +29,7 @@
       {
         "name": "Wcats",
         "id": 4,
-        "image": "../images/image4.jpeg",
+        "image": "https://i.pinimg.com/236x/16/64/c5/1664c50e43535640ec7cc40d49b0b017--storm-troopers-web-development.jpg",
         "language_id": "Python & Java",
         "experience": 2,
         "followers": 25,
@@ -38,7 +38,7 @@
       {
         "name": "Ezmobius",
         "id": 5,
-        "image": "../images/image15.png",
+        "image": "https://imgs.search.brave.com/mYxK8QnDbMi8Vthi6FELcN5yxeogVPkzrkAIRKoDHXk/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/b0h1Um1UNEt6ZFBI/NmlNZFE2UUlRSGFI/YSZwaWQ9QXBp",
         "language_id": "HTML & CSS",
         "experience": 12,
         "followers": 29,
@@ -47,7 +47,7 @@
       {
         "name": "Ivey",
         "id": 6,
-        "image": "../images/image6.png",
+        "image": "https://imgs.search.brave.com/Mn9ys5zACw4wGRNpvtB54VObvtSbkLLNlvaLBfQMX7Y/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5y/R3J1RmdvRUItNEgy/dzVUN2tRSnhnSGFI/YSZwaWQ9QXBp",
         "language_id": "Rust",
         "experience": 2,
         "followers": 30,
@@ -56,7 +56,7 @@
       {
         "name": "Evanphx",
         "id": 7,
-        "image": "../images/image7.jpeg",
+        "image": "https://imgs.search.brave.com/ofvDmLYKOcdJJ5eYTghm0mtgxBigRom9omhRJZrIyoI/rs:fit:400:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5m/Z3p6UDJJblZGdDU0/aWlhVXZzX3ZBQUFB/QSZwaWQ9QXBp",
         "language_id": "Elixir & MySql",
         "experience": 4,
         "followers": 24,
@@ -65,7 +65,7 @@
       {
         "name": "Vanpelt",
         "id": 8,
-        "image": "../images/image8.png",
+        "image": "https://imgs.search.brave.com/fPb2XBGS179xfGjvNiTj067lZpRW944b0KW12WOJkX4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5W/TmQ2YXpTal9RMnZw/UUo4UTBlTjhRSGFI/YSZwaWQ9QXBp",
         "language_id": "HTML, CSS",
         "experience": 8,
         "followers": 33,
@@ -74,7 +74,7 @@
       {
         "name": "Wayne",
         "id": 9,
-        "image": "../images/image9.jpeg",
+        "image": "https://imgs.search.brave.com/4hcREiizTClVcQEnBcJoZRjTgTVPLMo-4IdARFqgi54/rs:fit:475:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/MDdrWGtBNXpUdno1/cjNZaThFR1pRSGFI/WiZwaWQ9QXBp",
         "language_id": "Visual Basic & C#",
         "experience": 3,
         "followers": 43,
@@ -83,7 +83,7 @@
       {
         "name": "Brynary",
         "id": 10,
-        "image": "../images/image10.jpeg",
+        "image": "https://imgs.search.brave.com/IaliPbiBpldGRbRdelLcRK-LdhsRwsnLC_sK-FRGlm0/rs:fit:280:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5K/NzhvX1hiT19XR1FG/WTdDcVdMVXBRQUFB/QSZwaWQ9QXBp",
         "language_id": "C++ & TypeScript",
         "experience": 6,
         "followers": 13,
@@ -92,7 +92,7 @@
       {
         "name": "Kevinclark",
         "id": 11,
-        "image": "../images/image11.jpeg",
+        "image": "https://imgs.search.brave.com/f1ECyWuArRikJ8GrrIj1JrOqc6r-TtfFFCJ4Afx1g8Q/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/Y0hpb2lzNGg5RDdS/czN6N2RsNzJ3SGFI/YSZwaWQ9QXBp",
         "language_id": "HTML, CSS & Javascript",
         "experience": 1,
         "followers": 23,
@@ -101,7 +101,7 @@
       {
         "name": "Technowen",
         "id": 12,
-        "image": "../images/image12.jpeg",
+        "image": "https://imgs.search.brave.com/Aje6p4djrEAfQ2VFi-_wlT9y3gb-_ZvnjWaCFGPf_mM/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5k/eFJPUERiLXcwelVH/T2lwbGZMdkZ3SGFI/YSZwaWQ9QXBp",
         "language_id": "JavaScript & PHP",
         "experience": 5,
         "followers": 24,
@@ -110,7 +110,7 @@
       {
         "name": "Maconoyer",
         "id": 13,
-        "image": "../images/image13.jpeg",
+        "image": "https://imgs.search.brave.com/gXt-K9uJoPew47RpPGgM5w6n2CK_y-tt22tNJlm1rSw/rs:fit:741:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/cFU3S2tzRjlCSEN2/MDdyTGllT2FRSGFF/diZwaWQ9QXBp",
         "language_id": "Golang",
         "experience": 2,
         "followers": 44,
@@ -119,7 +119,7 @@
       {
         "name": "Takeo",
         "id": 14,
-        "image": "../images/image14.jpeg",
+        "image": "https://i.pinimg.com/originals/54/f7/37/54f737502df8f8f7333ac3a073a392c3.jpg",
         "language_id": "Python & Ruby",
         "experience": 11,
         "followers": 24,
@@ -128,7 +128,7 @@
       {
         "name": "Caged",
         "id": 15,
-        "image": "../images/image15.png",
+        "image": "https://imgs.search.brave.com/VOO6E32fDMVdPUv8C9D3ZCjTA40RoW0mAHJmQhY_SPw/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5R/WHNqOHRJbi00TGZ2/Wm1IdlN5VDZBSGFI/YSZwaWQ9QXBp",
         "language_id": "Objective C & C++",
         "experience": 7,
         "followers": 64,
@@ -137,7 +137,7 @@
       {
         "name": "Topfunky",
         "id": 16,
-        "image": "../images/image16.jpeg",
+        "image": "https://pesto.app/blog-cdn/content/images/2022/03/doug-avatar.png",
         "language_id": "NodeJS",
         "experience": 3,
         "followers": 34,
@@ -146,7 +146,7 @@
       {
         "name": "Jesse",
         "id": 17,
-        "image": "../images/image17.jpeg",
+        "image": "https://i.pinimg.com/236x/52/ea/be/52eabecf424b217807d0e557b9a0c38e--github-logo-web-development.jpg",
         "language_id": "Swift & Kotlin",
         "experience": 1,
         "followers": 24,
@@ -155,7 +155,7 @@
       {
         "name": "Roland",
         "id": 18,
-        "image": "../images/image18.jpeg",
+        "image": "https://imgs.search.brave.com/YBdqJBMKbhanlgZ8mAE_iX9DQmWC3CWbeUDoc-Rsnuo/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4w/YWFzd3IybFpYY3lG/b1o4WS03UlF3SGFI/YSZwaWQ9QXBp",
         "language_id": "C++ & C#",
         "experience": 5,
         "followers": 24,
@@ -164,7 +164,7 @@
       {
         "name": "Lukas",
         "id": 19,
-        "image": "../images/image19.jpeg",
+        "image": "https://imgs.search.brave.com/HZ1mzSzMUL4eiQLfOHD31tV76EJ-xJmGCdhTwD46kNE/rs:fit:452:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/aENUYnExWDh3bzRD/OVZuVlp2NEVnQUFB/QSZwaWQ9QXBp",
         "language_id": "Javascript & Python ",
         "experience": 2,
         "followers": 26,
@@ -173,7 +173,7 @@
       {
         "name": "Fanvsfan",
         "id": 20,
-        "image": "../images/image20.png",
+        "image": "https://imgs.search.brave.com/u6lxjptEsR4eRj7DwIcbkmuFyGkusVUGSibgC7S2_KU/rs:fit:280:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4z/dng1bkZyUU96bldW/VjFQbnM1bmZnQUFB/QSZwaWQ9QXBp",
         "language_id": "MySql",
         "experience": 2,
         "followers": 14,
@@ -182,7 +182,7 @@
       {
         "name": "Tomtt",
         "id": 21,
-        "image": "../images/image21.png",
+        "image": "https://imgs.search.brave.com/yKnT9zyXdAeayjeXdXGTQZNq6Pjx7F-t9jcfV8i77Og/rs:fit:400:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/a1V5M1h6Q1oxLTIw/N1NMaVZxRGdnQUFB/QSZwaWQ9QXBp",
         "language_id": "HTML, CSS & Javascript",
         "experience": 5,
         "followers": 19,
@@ -191,7 +191,7 @@
       {
         "name": "Railssu",
         "id": 22,
-        "image": "../images/image22.jpeg",
+        "image": "https://imgs.search.brave.com/LZFqYIKISStwAtwR2agTbdfoIUXgKukp9iH6usRfT9E/rs:fit:400:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/UXgzM3hnaDlvNWhC/aUZUb0w2akhBQUFB/QSZwaWQ9QXBp",
         "language_id": "Javascript, Python & MySql",
         "experience": 7,
         "followers": 12,
@@ -200,7 +200,7 @@
       {
         "name": "Nitay",
         "id": 23,
-        "image": "../images/image23.png",
+        "image": "https://imgs.search.brave.com/79mQTSB1gfNpOpGGrjNo53fFWU10-HLHHe14QCDHbf4/rs:fit:400:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC50/eVBqS0h4MDZGb0Iw/QlJTSkxvdWpRQUFB/QSZwaWQ9QXBp",
         "language_id": "Javascript, Python",
         "experience": 2,
         "followers": 34,
@@ -209,7 +209,7 @@
       {
         "name": "Kevwil",
         "id": 24,
-        "image": "../images/image24.png",
+        "image": "https://imgs.search.brave.com/xd9kUhhQHgwArjTae-a-jxl43Y5FTqO5NBZbQGjkPW8/rs:fit:280:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC51/MVE1alZ2ZmtCcGd6/M1ktYTVQSjZnQUFB/QSZwaWQ9QXBp",
         "language_id": "Java & Kotlin",
         "experience": 3,
         "followers": 24,
@@ -218,7 +218,7 @@
       {
         "name": "KirinDave",
         "id": 25,
-        "image": "../images/image25.jpeg",
+        "image": "https://imgs.search.brave.com/X30dNNE51LPYSDcEwJTIqf8z_fEV1WFwcMFXVexwub8/rs:fit:400:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4x/clhPVHFtYnJ1RHJD/aklzbG9SczR3QUFB/QSZwaWQ9QXBp",
         "language_id": "Python & Ruby",
         "experience": 4,
         "followers": 94,
@@ -227,7 +227,7 @@
       {
         "name": "Jameslick",
         "id": 26,
-        "image": "../images/image26.jpeg",
+        "image": "https://imgs.search.brave.com/zaRWZ_MEZuYs4muWTeoNQ_h1XbC2XeIRCmfPKVTiK1A/rs:fit:420:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5a/U1psVDMzYlJxaHVi/MmhINjRObmFRQUFB/QSZwaWQ9QXBp",
         "language_id": "Android & Java",
         "experience": 2,
         "followers": 94,
@@ -236,7 +236,7 @@
       {
         "name": "Atmos",
         "id": 27,
-        "image": "../images/image27.jpeg",
+        "image": "https://imgs.search.brave.com/kGvqhkwaLvD7tqgZmVniQv_PlWg3Y3oJUAQXfWJKC70/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5n/Q1lNYWNMNlotR0pq/NWFVemZYelR3SGFI/YSZwaWQ9QXBp",
         "language_id": "Kotlin & Swift",
         "experience": 1,
         "followers": 54,
@@ -245,7 +245,7 @@
       {
         "name": "Errfree",
         "id": 28,
-        "image": "../images/image28.jpeg",
+        "image": "https://miro.medium.com/max/1400/1*njIT-TVl6FVoL381M3Bdjg.jpeg",
         "language_id": "Python & Ruby",
         "experience": 3,
         "followers": 14,
@@ -254,7 +254,7 @@
       {
         "name": "Mojodna",
         "id": 29,
-        "image": "../images/image29.jpeg",
+        "image": "https://user-images.githubusercontent.com/5709133/50445980-88299a80-0912-11e9-962a-6fd92fd18027.png",
         "language_id": "HTML, CSS & PHP",
         "experience": 5,
         "followers": 24,
@@ -263,7 +263,7 @@
       {
         "name": "Bmizerany",
         "id": 30,
-        "image": "../images/image30.jpeg",
+        "image": "https://i.pinimg.com/originals/08/cb/e3/08cbe3f5fd5f1fe872a39b5b0cc7f078.jpg",
         "language_id": "NodeJS",
         "experience": 2,
         "followers": 14,

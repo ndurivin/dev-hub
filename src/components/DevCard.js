@@ -11,7 +11,6 @@ function DevCard({ devName, devThumbnail, devId }) {
          <div className="card-body justify-content-center align-items-center">
             <img src={devThumbnail} className="card-img-top img-fluid" alt={devName}/>
              <h4 className="card-title text-center">{devName}</h4>
-             <Link to={"/profile/" + devId} className="btn btn-info">View Details</Link>
            </div>
         </div>
        </div> 

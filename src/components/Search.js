@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 const Search = ({ placeholder, data }) => {
 
@@ -27,17 +28,23 @@ const Search = ({ placeholder, data }) => {
             }) 
                 .map((value) =>{
                     return(
-                        <div className="row" key={value.id}>
-                            <div className="card col">
+                        <div className="container">
+                            <div className="row p-2">
+                            {/* <div className="col-3"> */}
+                            <div className="card col" >
+                            <div className="card-body" key={value.id}>
                                 <h3 className="card-title text-center">{value.name}</h3>
                                 <img src={value.image} className="card-img-top img-fluid" alt={""}/>
                                 <h5 className="card-title text-center">{value.language_id}</h5>
                                 <h5 className="card-title text-center">{value.experience} years</h5>
-                                <h6 className="card-text"><small className="text-muted">Followed by: {value.following}</small></h6>
-                                <h6 className="card-text"><small className="text-muted">Followed by: {value.followers}</small></h6>
+                                <h6 className="card-text"><small className="text-muted">Following: {value.following} people</small></h6>
+                                <h6 className="card-text"><small className="text-muted">Followed by: {value.followers} people</small></h6>
+                                {/* <Link to={"/profile/"+ value.key} className="btn btn-info">View Details</Link> */}
 
                             </div>
-
+                            </div>
+                            </div>
+                            {/* </div> */}
                         </div>
                     )
                 })
