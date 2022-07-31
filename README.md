@@ -3,7 +3,7 @@
 
 ## Screenshot
 
- ![Landing page picture]()
+ ![Landing page picture](./public/main.png)
 
  ## Table of Content
  - [Description](#description)
@@ -35,7 +35,7 @@
  ****
 
 ### Live Link
-- Click this link to view the live application: 
+- Click this link to view the live application: ndurivin.github.io/react-devs-hub/
 
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.

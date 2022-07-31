@@ -31,7 +31,7 @@ const Home = () => {
       <h4 className="text-center p-4"> Home to the best software developers, with vast experiences</h4>
         <NavHero />
         <br/>
-        <Link to={"/devs"} className="btn btn-info ">View Available Developers</Link>
+        <Link to={"/devs"} className="btn btn-info text-center">View Available Developers</Link>
         <div className="col">
       {/* {devCards} */}
     </div>
