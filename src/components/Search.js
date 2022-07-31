@@ -28,12 +28,12 @@ const Search = ({ placeholder, data }) => {
             }) 
                 .map((value) =>{
                     return(
-                        <div className="container">
-                            <div className="row p-2">
-                            {/* <div className="col-3"> */}
-                            <div className="card col" >
-                            <div className="card-body" key={value.id}>
-                                <h3 className="card-title text-center">{value.name}</h3>
+                        <div className="py-4 container">
+                            <div className="row align-items-center">
+                            <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
+                            <div className="card p-0 overflow-hidden h-100 shadow" >
+                            <div className="card-body justify-content-center align-items-center" >
+                            <h3 className="card-title text-center">{value.name}</h3>
                                 <img src={value.image} className="card-img-top img-fluid" alt={""}/>
                                 <h5 className="card-title text-center">{value.language_id}</h5>
                                 <h5 className="card-title text-center">{value.experience} years</h5>
@@ -44,7 +44,7 @@ const Search = ({ placeholder, data }) => {
                             </div>
                             </div>
                             </div>
-                            {/* </div> */}
+                            </div>
                         </div>
                     )
                 })
