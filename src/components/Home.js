@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DevCard from "./DevCard";
 import NavHero from "./NavHero";
+import { Link } from "react-router-dom";
 
 
 const api_url = "https://quiet-hamlet-90428.herokuapp.com/devs";
@@ -26,10 +27,13 @@ const Home = () => {
 
   return (
     <div className="container py-3">
+      <h2 className="text-center p-4"> Welcome to React-Deves-Hub</h2>
+      <h4 className="text-center p-4"> Home to the best software developers, with vast experiences</h4>
         <NavHero />
-        <h2 className="text-center p-4">Featured Developers</h2>
+        <br/>
+        <Link to={"/devs"} className="btn btn-info ">View Available Developers</Link>
         <div className="col">
-      {devCards}
+      {/* {devCards} */}
     </div>
     </div>
   );
