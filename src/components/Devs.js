@@ -1,5 +1,5 @@
 import React from 'react'
-import DevCard from './DevCard';
+// import DevCard from './DevCard';
 import Search from './Search';
 import DevData from './data/data.json';
 

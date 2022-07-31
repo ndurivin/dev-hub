@@ -12,7 +12,7 @@
         "name": "Defunkt",
         "id": 2,
         "image": "../images/image2.jpeg",
-        "language_id": "Javascript",
+        "language_id": "React Native",
         "experience": 5,
         "followers": 13,
         "following": 28
@@ -39,7 +39,7 @@
         "name": "Ezmobius",
         "id": 5,
         "image": "../images/image15.png",
-        "language_id": "HTML, CSS & Javascript",
+        "language_id": "HTML & CSS",
         "experience": 12,
         "followers": 29,
         "following": 11
@@ -48,7 +48,7 @@
         "name": "Ivey",
         "id": 6,
         "image": "../images/image6.png",
-        "language_id": "Javascript",
+        "language_id": "Rust",
         "experience": 2,
         "followers": 30,
         "following": 20
@@ -57,7 +57,7 @@
         "name": "Evanphx",
         "id": 7,
         "image": "../images/image7.jpeg",
-        "language_id": "Javascript, Python & MySql",
+        "language_id": "Elixir & MySql",
         "experience": 4,
         "followers": 24,
         "following": 86
@@ -75,7 +75,7 @@
         "name": "Wayne",
         "id": 9,
         "image": "../images/image9.jpeg",
-        "language_id": "Javascript & Ruby",
+        "language_id": "Visual Basic & C#",
         "experience": 3,
         "followers": 43,
         "following": 28
@@ -84,7 +84,7 @@
         "name": "Brynary",
         "id": 10,
         "image": "../images/image10.jpeg",
-        "language_id": "C++ & Javascript",
+        "language_id": "C++ & TypeScript",
         "experience": 6,
         "followers": 13,
         "following": 13
@@ -99,10 +99,10 @@
         "following": 18
       },
       {
-        "lname": "Technowen",
+        "name": "Technowen",
         "id": 12,
         "image": "../images/image12.jpeg",
-        "language_id": "HTML, CSS & PHP",
+        "language_id": "JavaScript & PHP",
         "experience": 5,
         "followers": 24,
         "following": 86
@@ -111,7 +111,7 @@
         "name": "Maconoyer",
         "id": 13,
         "image": "../images/image13.jpeg",
-        "language_id": "Golang & Javascript",
+        "language_id": "Golang",
         "experience": 2,
         "followers": 44,
         "following": 56
@@ -129,7 +129,7 @@
         "name": "Caged",
         "id": 15,
         "image": "../images/image15.png",
-        "language_id": "C, C++, C#",
+        "language_id": "Objective C & C++",
         "experience": 7,
         "followers": 64,
         "following": 26
@@ -138,7 +138,7 @@
         "name": "Topfunky",
         "id": 16,
         "image": "../images/image16.jpeg",
-        "language_id": "HTML, CSS & NodeJS",
+        "language_id": "NodeJS",
         "experience": 3,
         "followers": 34,
         "following": 76
@@ -147,7 +147,7 @@
         "name": "Jesse",
         "id": 17,
         "image": "../images/image17.jpeg",
-        "language_id": "HTML, CSS & Javascript",
+        "language_id": "Swift & Kotlin",
         "experience": 1,
         "followers": 24,
         "following": 86
@@ -156,7 +156,7 @@
         "name": "Roland",
         "id": 18,
         "image": "../images/image18.jpeg",
-        "language_id": "C, C++, C#",
+        "language_id": "C++ & C#",
         "experience": 5,
         "followers": 24,
         "following": 16
@@ -165,7 +165,7 @@
         "name": "Lukas",
         "id": 19,
         "image": "../images/image19.jpeg",
-        "language_id": "Javascript, Python & MySql",
+        "language_id": "Javascript & Python ",
         "experience": 2,
         "followers": 26,
         "following": 46
@@ -174,7 +174,7 @@
         "name": "Fanvsfan",
         "id": 20,
         "image": "../images/image20.png",
-        "language_id": "C, C++, C#",
+        "language_id": "MySql",
         "experience": 2,
         "followers": 14,
         "following": 26
@@ -228,7 +228,7 @@
         "name": "Jameslick",
         "id": 26,
         "image": "../images/image26.jpeg",
-        "language_id": "Python, PHP & Ruby",
+        "language_id": "Android & Java",
         "experience": 2,
         "followers": 94,
         "following": 76
@@ -255,7 +255,7 @@
         "name": "Mojodna",
         "id": 29,
         "image": "../images/image29.jpeg",
-        "language_id": "HTML, CSS & NodeJS",
+        "language_id": "HTML, CSS & PHP",
         "experience": 5,
         "followers": 24,
         "following": 66
@@ -264,7 +264,7 @@
         "name": "Bmizerany",
         "id": 30,
         "image": "../images/image30.jpeg",
-        "language_id": "HTML, CSS & NodeJS",
+        "language_id": "NodeJS",
         "experience": 2,
         "followers": 14,
         "following": 36
