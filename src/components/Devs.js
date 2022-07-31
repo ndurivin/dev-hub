@@ -5,12 +5,14 @@ import DevData from './data/data.json';
 
 const Devs = () => {
   return (
-    <div className="container">
-      <br />
-      <Search placeholder="Search for dev by tech stack..." data={DevData}/>
+    <div className="container justify-content-center">
+      
       <br/>
-        <h2 className="text-center py-4">Featured Developers</h2>
-      <DevCard />
+      <Search placeholder="Search for dev by language..." data={DevData}/>
+      <br/>
+      <h2 className="text-center py-4">Featured Developers</h2>
+        
+      {/* <DevCard /> */}
     </div>
   )
 }
