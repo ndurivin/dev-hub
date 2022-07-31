@@ -3,7 +3,7 @@
 
 ## Screenshot
 
- ![Landing page picture](./public/main.png)
+ ![Landing page picture](./public/landing.png)
 
  ## Table of Content
  - [Description](#description)
